@@ -1,7 +1,7 @@
 ## Interface: 70300
 ## Title: Bad Nomi
 ## Author: Jabberie, Bitingsock
-## Version: 0.8.1
+## Version: 0.8.2
 ## SavedVariablesPerCharacter: previousNomi, autoNomi, numQueued
 
 main.lua
