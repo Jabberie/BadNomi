@@ -235,6 +235,7 @@ Nomiframe:SetScript("OnEvent", DispatchEvent);
 local function NomiLoader(tooltip)
     local _, unit = tooltip:GetUnit()
     if unit == nil then return; end;
+    if UnitGUID(unit) == nil then return; end;
     local npcid = string.sub(UnitGUID(unit), -17, -12)
     if npcid == "101846" then
         C_Garrison.RequestLandingPageShipmentInfo();
