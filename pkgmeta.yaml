@@ -5,4 +5,4 @@ license-output: LICENSE.txt
 
 ignore:
     - README.md
-    - .pkgmeta
+    - pkgmeta.yaml
